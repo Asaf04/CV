@@ -21,7 +21,8 @@ export default function Hero({
         <img
           src={image}
           alt={name}
-          className="w-48 h-48 rounded-full mx-auto mb-6 object-cover shadow-2xl"
+          className="w-48 h-48 rounded-full mx-auto mb-6 object-cover 
+  shadow-2xl hover:scale-105 transition-transform duration-300"
         />
         <h1 className="text-4xl font-bold text-gray-900">{name}</h1>
         <p className="text-xl text-gray-600 mt-2">

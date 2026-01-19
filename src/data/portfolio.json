@@ -15,11 +15,18 @@
   "skills": [
     "Python",
     "OOP",
+    "Microservices",
+    "C#",
+    "Node.js",
+    "TypeScript",
     "NiFi",
     "Elasticsearch",
+    "Kibana",
+    "Grafana",
     "AWS",
     "Azure",
-    "Node.js"
+    "Docker",
+    "CI/CD (GitHub/GitLab Actions)"
   ],
   "about": [
     "Software Developer with 2+ years of hands-on experience designing and deploying data transfer and automation systems with a strong focus on clean, maintainable, and scalable code.",
@@ -30,7 +37,7 @@
   "experience": [
     {
       "title": "Software Developer",
-      "subtitle": "Company Name",
+      "subtitle": "Israel Defense Forces",
       "period": "2023 - 2025",
       "points": [
         {
@@ -39,7 +46,7 @@
         },
         {
           "highlight": "Built automated deployment systems",
-          "text": "that orchestrate data pipeline duplication, processing millions of files daily with zero downtime."
+          "text": "that orchestrate data pipeline duplication, processing millions of files daily with near zero downtime."
         },
         {
           "highlight": "Developed serverless compute components",
