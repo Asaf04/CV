@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import TagList from './components/TagList';
+import TextSection from './components/TextSection';
+import TimelineSection from './components/TimeLineSection';
+import portfolioData from './data/portfolio.json';
+import Hero from './components/Hero';
+import CardContainer from './components/CardContainer';
+import Contact from './components/Contact';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-blue-50 to-purple-50">
+      <div className="pt-8 pb-4">
+        <Hero
+          name={portfolioData.personal.name}
+          title={portfolioData.personal.title}
+          location={portfolioData.personal.location}
+          image={portfolioData.personal.image}
+          languages={portfolioData.personal.languages}
+          resumeUrl={portfolioData.personal.resumeUrl}
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+      <main className="max-w-4xl mx-auto pb-12 px-4">
+        <CardContainer>
+          <TextSection title="About" content={portfolioData.about} />
+          <TagList title="Skills" items={portfolioData.skills} />
+          <TimelineSection
+            title="Experience"
+            items={portfolioData.experience}
+          />
+          <Contact {...portfolioData.contact} />
+        </CardContainer>
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;

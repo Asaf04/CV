@@ -1,0 +1,62 @@
+{
+  "personal": {
+    "name": "Asaf Yahalom",
+    "title": "Software Developer",
+    "location": "Givat Shmuel, Israel",
+    "image": "/profile.webp",
+    "resumeUrl": "/resume.pdf",
+    "languages": ["English", "Hebrew"]
+  },
+  "contact": {
+    "email": "asafya007@gmail.com",
+    "phone": "+972-54-323-1654",
+    "github": "https://github.com/Asaf04"
+  },
+  "skills": [
+    "Python",
+    "OOP",
+    "Microservices",
+    "C#",
+    "Node.js",
+    "TypeScript",
+    "NiFi",
+    "Elasticsearch",
+    "Kibana",
+    "Grafana",
+    "AWS",
+    "Azure",
+    "Docker",
+    "CI/CD (GitHub/GitLab Actions)"
+  ],
+  "about": [
+    "Software Developer with 2+ years of hands-on experience designing and deploying data transfer and automation systems with a strong focus on clean, maintainable, and scalable code.",
+    "Student of Literature and Judaic Studies, The Open University of Israel – President’s Award for Academic Excellence, 2025."
+  ],
+  "certifications": [],
+  "languages": ["English", "Hebrew"],
+  "experience": [
+    {
+      "title": "Software Developer",
+      "subtitle": "Israel Defense Forces",
+      "period": "2023 - 2025",
+      "points": [
+        {
+          "highlight": "Architected and deployed",
+          "text": "real-time data pipelines powering production intelligence systems."
+        },
+        {
+          "highlight": "Built automated deployment systems",
+          "text": "that orchestrate data pipeline duplication, processing millions of files daily with near zero downtime."
+        },
+        {
+          "highlight": "Developed serverless compute components",
+          "text": "enabling cost-effective, real-time data transfer between cloud (AWS/Azure) and on-premises infrastructure."
+        },
+        {
+          "highlight": "Engineered unified monitoring dashboard",
+          "text": "consolidating multi-system metrics, providing comprehensive real-time visibility into system and file-level health."
+        }
+      ]
+    }
+  ]
+}
