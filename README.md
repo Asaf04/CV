@@ -23,20 +23,25 @@ A portfolio website built with **React 19**, **TypeScript**, and **Vite**.
 To run this project locally:
 
 1. **Clone the repository:**
+
    ```bash
    git clone [https://github.com/Asaf04/CV.git](https://github.com/Asaf04/CV.git)
-   Install dependencies:
    ```
 
-Bash
+2. **Install dependencies:**
 
-npm install
-Start the development server:
+   ```
+   npm install
+   ```
 
-Bash
+3. **Start development server:**
 
-npm run dev
-📜 Available Scripts
+```
+ npm run dev
+```
+
+## 📜 Available Scripts
+
 npm run dev: Starts the local development server.
 
 npm run build: Compiles TypeScript and builds the app for production.
@@ -45,7 +50,8 @@ npm run deploy: Builds and pushes the site to the gh-pages branch.
 
 npm run format: Automatically formats code using Prettier.
 
-📬 Contact
+## 📬 Contact
+
 GitHub: @Asaf04
 
 Live Site: [View Portfolio](https://asaf04.github.io/CV/)
