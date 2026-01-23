@@ -25,7 +25,7 @@ To run this project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/Asaf04/CV.git](https://github.com/Asaf04/CV.git)
+   git clone https://github.com/Asaf04/CV.git
    ```
 
 2. **Install dependencies:**
@@ -36,22 +36,22 @@ To run this project locally:
 
 3. **Start development server:**
 
-```
- npm run dev
-```
+   ```
+   npm run dev
+   ```
 
 ## 📜 Available Scripts
 
-npm run dev: Starts the local development server.
+- **npm run dev:** Starts the local development server.
 
-npm run build: Compiles TypeScript and builds the app for production.
+- **npm run build:** Compiles TypeScript and builds the app for production.
 
-npm run deploy: Builds and pushes the site to the gh-pages branch.
+- **npm run deploy:** Builds and pushes the site to the gh-pages branch.
 
-npm run format: Automatically formats code using Prettier.
+- **npm run format:** Automatically formats code using Prettier.
 
 ## 📬 Contact
 
-GitHub: @Asaf04
+- **GitHub:** @Asaf04
 
-Live Site: [View Portfolio](https://asaf04.github.io/CV/)
+- **Live Site:** [View Portfolio](https://asaf04.github.io/CV/)
