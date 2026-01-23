@@ -3,8 +3,8 @@
     "name": "Asaf Yahalom",
     "title": "Software Developer",
     "location": "Givat Shmuel, Israel",
-    "image": "/profile.webp",
-    "resumeUrl": "/resume.pdf",
+    "image": "profile.webp",
+    "resumeUrl": "resume.pdf",
     "languages": ["English", "Hebrew"]
   },
   "contact": {
