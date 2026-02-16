@@ -2,6 +2,7 @@ import TagList from './components/TagList';
 import TextSection from './components/TextSection';
 import TimelineSection from './components/TimeLineSection';
 import portfolioData from './data/portfolio.json';
+import opportunityData from './data/opportunity.json';
 import Hero from './components/Hero';
 import CardContainer from './components/CardContainer';
 import Contact from './components/Contact';
@@ -22,7 +23,9 @@ function App() {
       </div>
 
       <main className="max-w-4xl mx-auto pb-12 px-4">
-        <OpportunityCard ctaEmail={portfolioData.contact.email} />
+        {opportunityData.enabled && (
+          <OpportunityCard ctaEmail={portfolioData.contact.email} />
+        )}
         <CardContainer>
           <TextSection title="About" content={portfolioData.about} />
           <TagList title="Skills" items={portfolioData.skills} />
