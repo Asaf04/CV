@@ -1,0 +1,122 @@
+@import '../styles/variables.css';
+
+.container {
+  margin-bottom: var(--spacing-xl);
+}
+
+.card {
+  position: relative;
+  background: linear-gradient(
+    to right,
+    var(--color-blue-500),
+    var(--color-purple-600)
+  );
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.decorativeTop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--color-white);
+  opacity: var(--opacity-10);
+  border-radius: 50%;
+  margin-right: -5rem;
+  margin-top: -5rem;
+}
+
+.decorativeBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 8rem;
+  height: 8rem;
+  background-color: var(--color-white);
+  opacity: var(--opacity-10);
+  border-radius: 50%;
+  margin-left: -4rem;
+  margin-bottom: -4rem;
+}
+
+.content {
+  position: relative;
+  padding: var(--spacing-xl);
+}
+
+@media (min-width: 640px) {
+  .content {
+    padding: var(--spacing-2xl);
+  }
+}
+
+.inner {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+}
+
+.icon {
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: var(--spacing-xs);
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 1.125rem;
+  color: rgba(var(--color-white), var(--opacity-95));
+  margin-bottom: var(--spacing-lg);
+  line-height: 1.6;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+.badge {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: rgba(var(--color-white), var(--opacity-20));
+  color: var(--color-white);
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+  font-weight: 500;
+  backdrop-filter: blur(4px);
+  white-space: nowrap;
+}
+
+.cta {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: var(--color-white);
+  color: var(--color-blue-600);
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-smooth);
+  border: none;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: var(--color-blue-50);
+  box-shadow: var(--shadow-lg-hover);
+  transform: scale(1.05);
+}

@@ -5,6 +5,7 @@ import portfolioData from './data/portfolio.json';
 import Hero from './components/Hero';
 import CardContainer from './components/CardContainer';
 import Contact from './components/Contact';
+import OpportunityCard from './components/OpportunityCard';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </div>
 
       <main className="max-w-4xl mx-auto pb-12 px-4">
+        <OpportunityCard ctaEmail={portfolioData.contact.email} />
         <CardContainer>
           <TextSection title="About" content={portfolioData.about} />
           <TagList title="Skills" items={portfolioData.skills} />

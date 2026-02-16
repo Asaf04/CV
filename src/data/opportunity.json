@@ -1,0 +1,23 @@
+{
+  "title": "Actively Seeking Student Opportunities",
+  "description": "I'm seeking a Software Developer or DevOps student position. With experience deploying scalable cloud systems and current ML research at Tel Aviv University, I bring Python/TypeScript expertise, AWS/Azure knowledge, and a passion for creative problem-solving that bridges technology and humanities.",
+  "icon": "🎯",
+  "badges": [
+    {
+      "icon": "📚",
+      "label": "Full-time Student"
+    },
+    {
+      "icon": "📅",
+      "label": "Available from April 2026"
+    },
+    {
+      "icon": "🌍",
+      "label": "Remote or On-site"
+    }
+  ],
+  "cta": {
+    "label": "💼 Let's Discuss an Opportunity",
+    "subject": "Student Opportunity"
+  }
+}
