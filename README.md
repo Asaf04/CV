@@ -46,8 +46,6 @@ To run this project locally:
 
 - **npm run build:** Compiles TypeScript and builds the app for production.
 
-- **npm run deploy:** Builds and pushes the site to the gh-pages branch.
-
 - **npm run format:** Automatically formats code using Prettier.
 
 ## 📬 Contact
